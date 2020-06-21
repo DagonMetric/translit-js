@@ -11,6 +11,14 @@
     "url": "https://github.com/DagonMetric/translit-js/issues"
   },
   "homepage": "https://github.com/DagonMetric/translit-js",
+  "scripts": {
+    "karma": "karma",
+    "tsc": "tsc",
+    "eslint": "eslint",
+    "test": "karma start karma.conf.js",
+    "test:ci": "karma start karma.conf.js --single-run --reporters progress,junit,coverage-istanbul --browsers ChromeHeadless",
+    "lint": "eslint -c .eslintrc.json --ext .js,.ts ."
+  },
   "dependencies": {
     "tslib": "~2.0.0"
   },
@@ -27,16 +35,22 @@
     "eslint-plugin-no-null": "^1.0.2",
     "eslint-plugin-prefer-arrow": "^1.2.1",
     "eslint-plugin-prettier": "^3.1.4",
+    "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine-core": "^3.5.0",
     "jasmine-spec-reporter": "~5.0.2",
-    "karma": "~5.1.0",
+    "karma": "^5.1.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~3.3.1",
     "karma-jasmine-html-reporter": "^1.5.4",
     "karma-junit-reporter": "^2.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^4.0.2",
     "prettier": "^2.0.5",
+    "source-map-loader": "^1.0.0",
+    "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",
-    "typescript": "~3.9.5"
+    "typescript": "~3.9.5",
+    "webpack": "^4.43.0"
   }
 }

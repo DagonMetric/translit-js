@@ -8,4 +8,4 @@
 
 export * from './translit-result';
 export * from './translit-rule';
-export * from './translit.service';
+export * from './translit';
