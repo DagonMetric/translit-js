@@ -6,8 +6,6 @@
  * found under the LICENSE file in the root directory of this source tree.
  */
 
-/* eslint-disable prefer-arrow/prefer-arrow-functions */
-
 import { TranslitResult, TranslitTraceItem } from './translit-result';
 import {
     PostRulesStrategy,
