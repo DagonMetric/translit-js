@@ -13,7 +13,7 @@
   "homepage": "https://github.com/DagonMetric/translit-js",
   "scripts": {    
     "lint": "eslint -c .eslintrc.json --ext .js,.ts .",
-    "test": "lib test --env.ci=true"    
+    "test": "lib test"
   },
   "dependencies": {
     "tslib": "~2.0.1"
