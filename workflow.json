@@ -9,6 +9,9 @@
             "script": {
               "compilations": "auto",
               "umdId": "translit"
+            },
+            "packageJson": {
+              "scriptsField": false
             }
           },
           "test": {
