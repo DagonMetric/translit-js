@@ -1,6 +1,7 @@
 # Transliterate Service for JavaScript Applications
 
 [![GitHub Actions Status](https://github.com/DagonMetric/translit-js/workflows/Main%20Workflow/badge.svg)](https://github.com/DagonMetric/translit-js/actions)
+[![Azure Pipelines Status](https://dev.azure.com/DagonMetric/translit-js/_apis/build/status/DagonMetric.translit-js?repoName=DagonMetric%2Ftranslit-js&branchName=master)](https://dev.azure.com/DagonMetric/translit-js/_build/latest?definitionId=23&repoName=DagonMetric%2Ftranslit-js&branchName=master)
 [![npm version](https://badge.fury.io/js/%40dagonmetric%2Ftranslit-js.svg)](https://www.npmjs.com/package/@dagonmetric/translit-js)
 [![Gitter](https://badges.gitter.im/DagonMetric/general.svg)](https://gitter.im/DagonMetric/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
