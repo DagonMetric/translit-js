@@ -22,12 +22,6 @@ jobs:
         npm ci
         npm run build --if-present
         npm run lint --if-present
-        npm run test --if-present
-    - uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage/translit-js/lcov.info
-        flags: unit
-        # fail_ci_if_error: true #optional (default = false)
+        npm run test --if-present    
       env:
         CI: true
