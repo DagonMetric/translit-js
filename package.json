@@ -1,6 +1,7 @@
 {
   "name": "translit-js",
   "version": "0.0.0",
+  "description": "General purpose transliterate service for JavaScript applications which can be used in swapping letters such as α → a, ၎ → ၎င်း.",
   "author": "DagonMetric",
   "license": "MIT",
   "repository": {
@@ -11,6 +12,23 @@
     "url": "https://github.com/DagonMetric/translit-js/issues"
   },
   "homepage": "https://github.com/DagonMetric/translit-js",
+  "keywords": [    
+    "transliteration",
+    "transliterate",
+    "transliteration-service",
+    "swapping-letters",    
+    "alphabet-converter",
+    "internationalization",
+    "intl",
+    "unicode-tools",
+    "script-tools",
+    "language-tools",
+    "myanmar-tools",
+    "zawgyi-unicode-converter",
+    "zawgyi-unicode-translit-rules",
+    "transliterate-rules",    
+    "typescript"
+  ],
   "scripts": {
     "lint": "eslint -c .eslintrc.json --ext .js,.ts .",
     "build": "lib build --env.prod=true",
@@ -34,5 +52,6 @@
     "prettier": "^2.1.2",
     "ts-node": "^9.0.0",
     "typescript": "~4.0.3"
-  }
+  },
+  "sideEffects": false
 }
