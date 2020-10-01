@@ -1,6 +1,6 @@
 {
   "name": "@dagonmetric/translit-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "General purpose transliterate service for JavaScript applications which can be used in swapping letters such as α → a, ၎ → ၎င်း.",
   "author": "DagonMetric",
   "license": "MIT",
