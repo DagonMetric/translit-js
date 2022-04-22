@@ -35,7 +35,7 @@
     "test": "lib test --env.ci=true"
   },
   "dependencies": {
-    "tslib": "~2.3.1"
+    "tslib": "~2.4.0"
   },
   "devDependencies": {
     "@types/jasmine": "^4.0.3",
